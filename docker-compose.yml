@@ -6,7 +6,7 @@ services:
     tty: true
     container_name: dev_laravel
     ports: 
-      - 8081:80
+      - 8089:80
     restart: always
     depends_on:
       - dev_mysql
