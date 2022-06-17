@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"intelephense.format.braces": "k&r",
+		"editor.formatOnSaveMode": "modificationsIfAvailable",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"php.validate.executablePath": ".\\bin\\php.bat",
+		"php.suggest.basic": true,
+		"php.validate.run": "onSave",
+		"php.validate.enable": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true,
+			"source.organizeImports": true,
+			"source.sortMembers": true
+		}
+	}
+}
