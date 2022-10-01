@@ -8,8 +8,6 @@ services:
     ports: 
       - 8089:80
     restart: always
-    depends_on:
-      - dev_mysql
     environment:
       DB_HOST: dev_mysql
       DB_USERNAME: dev_laravel
